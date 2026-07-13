@@ -54,8 +54,6 @@ const completionSources = {
 const completers = {
   omni: new MultiCompleter([
     completionSources.bookmarks,
-    completionSources.history,
-    completionSources.domains,
     completionSources.tabs,
     completionSources.searchEngines,
   ]),
